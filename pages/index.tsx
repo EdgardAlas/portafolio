@@ -1,10 +1,15 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import { Habilidades } from '../components/habildades';
+import { Inicio } from '../components/Inicio';
+import { Layout } from '../components/layout/Layout';
 
 const Home: NextPage = () => {
-  return <h1>Portafolio</h1>;
+  return (
+    <Layout title='Inicio | Portafolio Edgard Alas'>
+      <Inicio />
+      <Habilidades />
+    </Layout>
+  );
 };
 
 export default Home;

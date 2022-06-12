@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  font-family: 'Epilogue', sans-serif;
+  scroll-padding: 5.6rem;
+  scroll-behavior: smooth;
+}
