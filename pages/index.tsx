@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import { Habilidades } from '../components/habildades';
 import { Inicio } from '../components/Inicio';
-import { Layout } from '../components/layout/Layout';
+import { Layout } from '../components/layout';
 
 const Home: NextPage = () => {
   return (

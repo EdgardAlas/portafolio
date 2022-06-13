@@ -10,12 +10,12 @@ interface Props {
 
 export const Layout = ({ children, title }: Props) => {
   return (
-    <NavbarProvider>
+    <>
       <Head>
         <title>{title}</title>
       </Head>
       <NavBar />
       <main>{children}</main>
-    </NavbarProvider>
+    </>
   );
 };
