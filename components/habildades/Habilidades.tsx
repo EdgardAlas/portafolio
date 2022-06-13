@@ -1,5 +1,4 @@
 import { habilidades } from '../../data';
-import { useNavbarContext } from '../../hooks';
 import { Habilidad } from './Habilidad';
 
 export const Habilidades = () => {
